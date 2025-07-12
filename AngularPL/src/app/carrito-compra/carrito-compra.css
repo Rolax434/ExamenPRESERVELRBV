@@ -1,0 +1,84 @@
+/* Estilo general */
+body, h2 {
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #3c2f2f;
+  text-shadow: 1px 1px 2px #e0dede;
+}
+
+/* Contenedor de tarjetas */
+.articulos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Tarjeta individual */
+.articulo-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 230px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.articulo-card:hover {
+  transform: scale(1.03);
+}
+
+.articulo-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.articulo-card p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.articulo-card input[type="number"] {
+  width: 60%;
+  padding: 6px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.articulo-card button {
+  background-color: #10b981;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.articulo-card button:hover {
+  background-color: #059669;
+}
+
+/* Mensajes */
+div[style*="color: green"], div[style*="color: red"] {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}

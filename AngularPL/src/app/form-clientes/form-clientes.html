@@ -1,0 +1,58 @@
+<h2>Información de Cuenta</h2>
+
+<form (ngSubmit)="guardar()" #registroForm="ngForm">
+
+  <label>Usuario:
+    <input [(ngModel)]="cliente.userName" name="userName" required />
+  </label><br />
+
+  <label>Contraseña:
+    <input [(ngModel)]="cliente.contrasenia" type="password" name="contrasenia" required />
+  </label><br />
+
+  <label>Nombre:
+    <input [(ngModel)]="cliente.nombre" name="nombre" />
+  </label><br />
+
+  <label>Apellido Paterno:
+    <input [(ngModel)]="cliente.apellidoPaterno" name="apellidoPaterno" />
+  </label><br />
+
+  <label>Apellido Materno:
+    <input [(ngModel)]="cliente.apellidoMaterno" name="apellidoMaterno" />
+  </label><br />
+
+  <label>Calle:
+    <input [(ngModel)]="cliente.calle" name="calle" />
+  </label><br />
+
+  <label>Num. Exterior:
+    <input [(ngModel)]="cliente.numeroExterior" name="numeroExterior" />
+  </label><br />
+
+  <label>Num. Interior:
+    <input [(ngModel)]="cliente.numeroInterior" name="numeroInterior" />
+  </label><br />
+
+  <label>Colonia:
+    <input [(ngModel)]="cliente.colonia" name="colonia" />
+  </label><br />
+
+  <label>Municipio:
+    <input [(ngModel)]="cliente.municipio" name="municipio" />
+  </label><br />
+
+  <label>Estado:
+    <input [(ngModel)]="cliente.estado" name="estado" />
+  </label><br />
+
+  <label>Codigo Postal:
+    <input [(ngModel)]="cliente.codigoPostal" name="codigoPostal" />
+  </label><br />
+
+  <button type="submit">Guardar Cambios</button>
+  <button type="button" (click)="eliminar(cliente.idCliente)">ELIMINAR CUENTA</button>
+</form>
+
+<div *ngIf="mensaje" style="color:green;">{{ mensaje }}</div>
+<div *ngIf="error" style="color:red;">{{ error }}</div>

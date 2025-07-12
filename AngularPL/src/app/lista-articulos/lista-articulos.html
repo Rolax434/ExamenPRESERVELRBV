@@ -1,0 +1,36 @@
+<h2>Lista de Articulos</h2>
+
+<div *ngIf="error" style="color:red;">{{ error }}</div>
+
+<div *ngIf="mensaje" style="color:green;">{{ mensaje }}</div>
+
+<button class="main-action" (click)="IraFormulario()">
+  <i class="fas fa-plus-circle"></i> Agregar Artículo
+</button>
+
+
+<table *ngIf="articulos.length > 0" border="1">
+  <thead>
+    <tr>
+      <th>Imagen</th>
+      <th>Codigo</th>
+      <th>Descripcion</th>
+      <th>Precio</th>
+      <th>Cantidad en Stock</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let articulo of articulos">
+      <td><img [src]="'data:image/*;base64,' + articulo.imagen" width="100" height="100" /></td>
+      <td>{{ articulo.codigo }}</td>
+      <td>{{ articulo.descripcion }}</td>
+      <td>{{ articulo.precio }}</td>
+      <td>{{ articulo.stock }}</td>
+      <td>
+        <button class="icon-button edit" (click)="editar(articulo.idArticulo)"><i class="fas fa-pen"></i></button>
+        <button class="icon-button delete" (click)="eliminar(articulo.idArticulo)"><i class="fas fa-trash-alt"></i></button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\sl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|solutionrelative:sl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\sl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|solutionrelative:sl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0AE8EF5-58CF-4231-A8AF-F67FE67AB47E}|DL\\DL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\dl\\context\\examencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0AE8EF5-58CF-4231-A8AF-F67FE67AB47E}|DL\\DL.csproj|solutionrelative:dl\\context\\examencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\sl\\controllers\\tiendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|solutionrelative:sl\\controllers\\tiendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\sl\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|solutionrelative:sl\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\sl\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E59CA863-BE09-4D3C-99C5-EF017950F7FB}|SL\\SL.csproj|solutionrelative:sl\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3134BC2D-0932-4359-8734-CFE7B2117537}|ML\\ML.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\ml\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3134BC2D-0932-4359-8734-CFE7B2117537}|ML\\ML.csproj|solutionrelative:ml\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3134BC2D-0932-4359-8734-CFE7B2117537}|ML\\ML.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\ml\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3134BC2D-0932-4359-8734-CFE7B2117537}|ML\\ML.csproj|solutionrelative:ml\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3134BC2D-0932-4359-8734-CFE7B2117537}|ML\\ML.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\ml\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3134BC2D-0932-4359-8734-CFE7B2117537}|ML\\ML.csproj|solutionrelative:ml\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3134BC2D-0932-4359-8734-CFE7B2117537}|ML\\ML.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\ml\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3134BC2D-0932-4359-8734-CFE7B2117537}|ML\\ML.csproj|solutionrelative:ml\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F1344-A05F-45E1-B597-ADB4CA3B39E6}|BL\\BL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\bl\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F1344-A05F-45E1-B597-ADB4CA3B39E6}|BL\\BL.csproj|solutionrelative:bl\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F1344-A05F-45E1-B597-ADB4CA3B39E6}|BL\\BL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\bl\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F1344-A05F-45E1-B597-ADB4CA3B39E6}|BL\\BL.csproj|solutionrelative:bl\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F1344-A05F-45E1-B597-ADB4CA3B39E6}|BL\\BL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\bl\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F1344-A05F-45E1-B597-ADB4CA3B39E6}|BL\\BL.csproj|solutionrelative:bl\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0AE8EF5-58CF-4231-A8AF-F67FE67AB47E}|DL\\DL.csproj|c:\\users\\alien11\\documents\\lrbv\\examenpreservelrbv\\dl\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0AE8EF5-58CF-4231-A8AF-F67FE67AB47E}|DL\\DL.csproj|solutionrelative:dl\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Models\\ExamenPreservelrbvContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SL\\Models\\ExamenPreservelrbvContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\appsettings.json",
+              "RelativeDocumentMoniker": "SL\\appsettings.json",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\appsettings.json",
+              "RelativeToolTip": "SL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-11T23:58:24.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TiendaController.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Controllers\\TiendaController.cs",
+              "RelativeDocumentMoniker": "SL\\Controllers\\TiendaController.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Controllers\\TiendaController.cs",
+              "RelativeToolTip": "SL\\Controllers\\TiendaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T19:08:03.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Articulos.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\ML\\Articulos.cs",
+              "RelativeDocumentMoniker": "ML\\Articulos.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\ML\\Articulos.cs",
+              "RelativeToolTip": "ML\\Articulos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:37:12.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tienda.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\ML\\Tienda.cs",
+              "RelativeDocumentMoniker": "ML\\Tienda.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\ML\\Tienda.cs",
+              "RelativeToolTip": "ML\\Tienda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:29:44.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Program.cs",
+              "RelativeDocumentMoniker": "SL\\Program.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Program.cs",
+              "RelativeToolTip": "SL\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T18:16:32.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\ML\\Cliente.cs",
+              "RelativeDocumentMoniker": "ML\\Cliente.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\ML\\Cliente.cs",
+              "RelativeToolTip": "ML\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T17:55:06.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\DL\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "DL\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\DL\\Models\\Cliente.cs",
+              "RelativeToolTip": "DL\\Models\\Cliente.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwC4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T17:50:29.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExamenContext.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\DL\\Context\\ExamenContext.cs",
+              "RelativeDocumentMoniker": "DL\\Context\\ExamenContext.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\DL\\Context\\ExamenContext.cs",
+              "RelativeToolTip": "DL\\Context\\ExamenContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T17:28:29.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExamenPreservelrbvContext.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Models\\ExamenPreservelrbvContext.cs",
+              "RelativeDocumentMoniker": "SL\\Models\\ExamenPreservelrbvContext.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Models\\ExamenPreservelrbvContext.cs",
+              "RelativeToolTip": "SL\\Models\\ExamenPreservelrbvContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T17:22:17.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\ML\\Compra.cs",
+              "RelativeDocumentMoniker": "ML\\Compra.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\ML\\Compra.cs",
+              "RelativeToolTip": "ML\\Compra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T23:24:49.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Controllers\\ArticuloController.cs",
+              "RelativeDocumentMoniker": "SL\\Controllers\\ArticuloController.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Controllers\\ArticuloController.cs",
+              "RelativeToolTip": "SL\\Controllers\\ArticuloController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:54:33.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tienda.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\BL\\Tienda.cs",
+              "RelativeDocumentMoniker": "BL\\Tienda.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\BL\\Tienda.cs",
+              "RelativeToolTip": "BL\\Tienda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:38:18.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "SL\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\SL\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "SL\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwHAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:26:34.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\BL\\Articulo.cs",
+              "RelativeDocumentMoniker": "BL\\Articulo.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\BL\\Articulo.cs",
+              "RelativeToolTip": "BL\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T17:09:08.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\BL\\Cliente.cs",
+              "RelativeDocumentMoniker": "BL\\Cliente.cs",
+              "ToolTip": "C:\\Users\\ALIEN11\\Documents\\LRBV\\ExamenPRESERVELRBV\\BL\\Cliente.cs",
+              "RelativeToolTip": "BL\\Cliente.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEcBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T00:57:48.393Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

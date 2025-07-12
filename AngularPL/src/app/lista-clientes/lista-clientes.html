@@ -1,0 +1,36 @@
+<h2>Lista de Clientes</h2>
+
+<div *ngIf="error" style="color:red;">{{ error }}</div>
+
+<table *ngIf="clientes.length > 0" border="1">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido Paterno</th>
+      <th>Apellido Materno</th>
+      <th>Calle</th>
+      <th>Número Ext</th>
+      <th>Número Int</th>
+      <th>Colonia</th>
+      <th>Municipio</th>
+      <th>Estado</th>
+      <th>CP</th>
+      <th>Usuario</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cliente of clientes">
+      <td>{{ cliente.nombre }}</td>
+      <td>{{ cliente.apellidoPaterno }}</td>
+      <td>{{ cliente.apellidoMaterno }}</td>
+      <td>{{ cliente.calle }}</td>
+      <td>{{ cliente.numeroExterior }}</td>
+      <td>{{ cliente.numeroInterior }}</td>
+      <td>{{ cliente.colonia }}</td>
+      <td>{{ cliente.municipio }}</td>
+      <td>{{ cliente.estado }}</td>
+      <td>{{ cliente.codigoPostal }}</td>
+      <td>{{ cliente.userName }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,46 @@
+Instrucciones para levantar el proyecto ExamenPRESERVELRBV
+
+1- 	En primer instancia, sera necesario abrir SQLServer, en el servidor que vaya a utilizarse y ejecutar las querys del archivo:
+
+"QUERY_ExamenPRESERVELRBV"
+
+Contenido en la misma carpeta raiz del repositorio.
+
+2- 	A continuacion, deberan actualizar el modelo del proyecto en Visula studio, utilizando la terminal de nuget y apuntando al proyecto DL, usando el Scaffolding:
+
+"Scaffold-DbContext "Server=(SERVIDOR);Database=ExamenPRESERVELRBV;User Id=(USUARIO);Password=(CONTRASEÑA);trustservercertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -ContextDir Context -Context ExamenContext -DataAnnotations -Force"
+
+Modificando dentro de cada parentesis, con el servidor, usuario y contraseña pertinentes
+
+3- 	Ademas, sera necesario copiar la cadena de conexion utilizada al archivo appsettings.json, contenida en la carpeta de SL, siendo en este caso la cadena:
+
+"Server=(SERVIDOR);Database=ExamenPRESERVELRBV;User Id=(USUARIO);Password=(CONTRASEÑA);trustservercertificate=True"
+
+reemplazandola en la linea 11 del mencionado archivo:
+
+"DefaultConnection": Server=(SERVIDOR);Database=ExamenPRESERVELRBV;User Id=(USUARIO);Password=(CONTRASEÑA);trustservercertificate=True"
+
+4- 	Por ultimo para el backend, en caso de utilizar un puerto diferente de Angular, sera necesario definirlo en el archivo program.cs en la linea 8:
+
+            builder.WithOrigins("http://localhost:4200") // ← URL de Angular
+
+Si se utiliza el puerto por defecto, no sera necesario modificar.
+
+5- 	Ahora, se necesitara modificar el puerto en las variables de endpoints contenidas de los servicios de angular:
+
+Dentro de la carpeta AngularPL/src/app/services, se ecnontraran 3 archivos, siendo estos:
+
+-articulos.ts
+-cliente.ts
+-tienda.ts
+
+En cada uno de estos archivos, en la linea numero 8 se encuentra una variable llamada apiUrl que contiene la primera parte de los endpoints utilizados para conectar el servicio .netcore con angular:
+
+"readonly apiUrl = 'https://localhost:7245/api/tienda';"
+
+En esta linea, sera necesario ajustar el numero del puerto segun sea el asignado al ejecutar el proyecto .NET del backend.
+
+6-	Por ultimo, sera necesario ejecutar el proyecto en visual studio, o el IDE de preferencia, siendo el startup project la capa de SL, y utilizando la terminal de angular para ejecutar (ng serve) el proyecto apuntando a la ruta de la carpeta AngularPL y abriendo en el navegador el puerto asignado.
+
+
+

@@ -1,0 +1,42 @@
+<h2>{{ esEdicion ? 'Editar Tienda' : 'Agregar Tienda' }}</h2>
+
+<form (ngSubmit)="agregar()" #articulosForm="ngForm">
+
+  <label>Sucursal:
+    <input [(ngModel)]="tienda.sucursal" name="sucursal" />
+  </label><br />
+
+  <label>Calle:
+    <input [(ngModel)]="tienda.calle" name="calle" />
+  </label><br />
+
+  <label>Num. Exterior:
+    <input [(ngModel)]="tienda.numeroExterior" name="numeroExterior" />
+  </label><br />
+
+  <label>Num. Interior:
+    <input [(ngModel)]="tienda.numeroInterior" name="numeroInterior" />
+  </label><br />
+
+  <label>Colonia:
+    <input [(ngModel)]="tienda.colonia" name="colonia" />
+  </label><br />
+
+  <label>Municipio:
+    <input [(ngModel)]="tienda.municipio" name="municipio" />
+  </label><br />
+
+  <label>Estado:
+    <input [(ngModel)]="tienda.estado" name="estado" />
+  </label><br />
+
+  <label>Codigo Postal:
+    <input [(ngModel)]="tienda.codigoPostal" name="codigoPostal" />
+  </label><br />
+
+  <button type="submit">{{ esEdicion ? 'Actualizar' : 'Agregar' }}</button>
+  <button type="button" (click)="irALista()">Cancelar</button>
+</form>
+
+<div *ngIf="mensaje" style="color:green;">{{ mensaje }}</div>
+<div *ngIf="error" style="color:red;">{{ error }}</div>

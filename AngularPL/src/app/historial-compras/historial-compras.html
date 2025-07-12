@@ -1,0 +1,22 @@
+<h2>Historial de Compras</h2>
+
+<div *ngIf="error" style="color: red;">{{ error }}</div>
+
+<table *ngIf="historial.length > 0" border="1">
+  <thead>
+    <tr>
+      <th>Imagen</th>
+      <th>Descripción</th>
+      <th>Precio</th>
+      <th>Cantidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let compra of historial">
+      <td><img [src]="'data:image/*;base64,' + compra.imagen" width="100" height="100"></td>
+      <td>{{ compra.descripcion }}</td>
+      <td>{{ compra.precio }}</td>
+      <td>{{ compra.fechaCompra }}</td>
+    </tr>
+  </tbody>
+</table>

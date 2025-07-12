@@ -1,0 +1,59 @@
+<h2>Lista de Tiendas</h2>
+
+<div *ngIf="error" style="color:red;">{{ error }}</div>
+
+<div *ngIf="mensaje" style="color:green;">{{ mensaje }}</div>
+
+<button class="main-action" (click)="IraFormulario()">
+  <i class="fas fa-plus-circle"></i> Agregar Tienda
+</button>
+
+<table *ngIf="tiendas.length > 0" border="1">
+  <thead>
+    <tr>
+      <th>Sucursal</th>
+      <th>Calle</th>
+      <th>Número Ext</th>
+      <th>Número Int</th>
+      <th>Colonia</th>
+      <th>Municipio</th>
+      <th>Estado</th>
+      <th>CP</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tienda of tiendas">
+      <td>{{ tienda.sucursal }}</td>
+      <td>{{ tienda.calle }}</td>
+      <td>{{ tienda.numeroExterior }}</td>
+      <td>{{ tienda.numeroInterior }}</td>
+      <td>{{ tienda.colonia }}</td>
+      <td>{{ tienda.municipio }}</td>
+      <td>{{ tienda.estado }}</td>
+      <td>{{ tienda.codigoPostal }}</td>
+      <td>
+  <div class="acciones-container">
+    <div class="acciones-iconos">
+      <button class="icon-button edit" (click)="editar(tienda.idTienda)">
+        <i class="fas fa-pen"></i>
+      </button>
+      <button class="icon-button delete" (click)="eliminar(tienda.idTienda)">
+        <i class="fas fa-trash-alt"></i>
+      </button>
+    </div>
+
+    <div class="acciones-texto">
+      <button class="action-button" (click)="verArticulosRelacionados(tienda.idTienda)">
+        <i class="fas fa-link"></i> Artículos Relacionados
+      </button>
+      <button class="action-button" (click)="verArticulosDisponibles(tienda.idTienda)">
+        <i class="fas fa-plus-square"></i> Relacionar Artículos
+      </button>
+    </div>
+  </div>
+</td>
+
+    </tr>
+  </tbody>
+</table>

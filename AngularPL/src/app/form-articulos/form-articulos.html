@@ -1,0 +1,35 @@
+<h2>{{ esEdicion ? 'Editar Artículo' : 'Agregar Artículo' }}</h2>
+
+<form (ngSubmit)="agregar()" #articulosForm="ngForm">
+
+  <label>Imagen:
+    <input type="file" (change)="onFileSelected($event)" name="imagen" required />
+  </label><br />
+
+  <div *ngIf="imagenPreview">
+    <p>Vista previa:</p>
+    <img [src]="imagenPreview" alt="Vista previa" style="max-width: 200px; max-height: 200px;" />
+  </div>
+
+  <label>Código:
+    <input [(ngModel)]="articulo.codigo" name="codigo" required />
+  </label><br />
+
+  <label>Descripción:
+    <input [(ngModel)]="articulo.descripcion" name="descripcion" required />
+  </label><br />
+
+  <label>Precio:
+    <input type="number" step="0.01" [(ngModel)]="articulo.precio" name="precio" required />
+  </label><br />
+
+  <label>Stock:
+    <input type="number" [(ngModel)]="articulo.stock" name="stock" required />
+  </label><br />
+
+  <button type="submit">{{ esEdicion ? 'Actualizar' : 'Agregar' }}</button>
+  <button type="button" (click)="irALista()">Cancelar</button>
+</form>
+
+<div *ngIf="mensaje" style="color:green;">{{ mensaje }}</div>
+<div *ngIf="error" style="color:red;">{{ error }}</div>

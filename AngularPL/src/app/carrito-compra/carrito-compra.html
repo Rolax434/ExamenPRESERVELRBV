@@ -1,0 +1,11 @@
+<div *ngIf="articulos.length > 0" class="articulos-grid">
+  <div *ngFor="let articulo of articulos" class="articulo-card">
+    <img [src]="'data:image/*;base64,' + articulo.imagen" />
+    <p><strong>Descripción:</strong> {{ articulo.descripcion }}</p>
+    <p><strong>Precio:</strong> ${{ articulo.precio }}</p>
+    <p><strong>Stock:</strong> {{ articulo.stock }}</p>
+
+    <input type="number" [(ngModel)]="cantidades[articulo.idArticulo]" min="1" [max]="articulo.stock" placeholder="Cantidad">
+    <button (click)="comprar(articulo.idArticulo)">Comprar</button>
+  </div>
+</div>

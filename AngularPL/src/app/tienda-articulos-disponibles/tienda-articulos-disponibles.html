@@ -1,0 +1,17 @@
+<h2>Artículos disponibles para asociar</h2>
+
+<div *ngIf="error" style="color:red;">{{ error }}</div>
+<div *ngIf="mensaje" style="color:green;">{{ mensaje }}</div>
+
+<div class="card-container">
+  <div *ngFor="let articulo of articulos" class="card">
+    <img [src]="'data:image/*;base64,' + articulo.imagen" width="100" height="100" />
+    <p><strong>Código:</strong> {{ articulo.codigo }}</p>
+    <p><strong>Descripción:</strong> {{ articulo.descripcion }}</p>
+    <p><strong>Precio:</strong> {{ articulo.precio }}</p>
+    <p><strong>Stock:</strong> {{ articulo.stock }}</p>
+    <button (click)="relacionar(articulo.idArticulo)">Relacionar con tienda</button>
+  </div>
+</div>
+
+<button type="button" (click)="irALista()">Cancelar</button>

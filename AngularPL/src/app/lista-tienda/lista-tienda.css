@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+body, h2 {
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #3c2f2f;
+  text-shadow: 1px 1px 2px #e0dede;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1rem auto;
+  background: linear-gradient(to right, #f7f3f3, #fff);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle; /* para que contenido se alinee verticalmente */
+}
+
+th {
+  background-color: #cbb7ae;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f0f0;
+}
+
+tr:hover {
+  background-color: #e3dfdf;
+  transition: 0.3s;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor para botones dentro de la celda de acciones */
+.acciones-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Contenedor para icon-buttons en línea */
+.acciones-iconos {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+/* Botones icono (editar, eliminar) */
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin: 0 0.3rem;
+  color: #3b3a3a;
+  transition: transform 0.2s ease;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.icon-button:hover {
+  transform: scale(1.2);
+  color: #d97706;
+}
+
+.icon-button.edit:hover {
+  color: #2563eb;
+}
+
+.icon-button.delete:hover {
+  color: #dc2626;
+}
+
+.icon-button.link:hover {
+  color: #0d9488;
+}
+
+
+.acciones-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  max-width: 160px; 
+}
+
+
+.action-button {
+  background-color: #17a2b8;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 0.65rem;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+
+  min-width: 140px; 
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.action-button i {
+  font-size: 1rem;
+}
+
+.action-button:hover {
+  background-color: #138496;
+}
+
+button.main-action {
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #7e5bef;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+button.main-action:hover {
+  background-color: #5b3bc4;
+}
+
+div[style*="color:red"], div[style*="color:green"] {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}

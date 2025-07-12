@@ -1,0 +1,15 @@
+<nav>
+  <ul>
+    <li><a routerLink="lista-clientes" routerLinkActive="active">Clientes</a></li>
+    <li><a routerLink="lista-tienda" routerLinkActive="active">Tiendas</a></li>
+    <li><a routerLink="lista-articulos" routerLinkActive="active">Artículos</a></li>
+    <li><a routerLink="form-clientes" routerLinkActive="active">Actualizar Cuenta</a></li>
+    <li><a href="#" (click)="cerrarSesion()">Cerrar sesión</a></li>
+    <li><a routerLink="carrito-compra" routerLinkActive="active">Comprar articulos</a></li>
+    <li><a routerLink="historial" routerLinkActive="active">Ver historial </a></li>
+  </ul>
+</nav>
+
+<hr>
+
+<router-outlet></router-outlet>
